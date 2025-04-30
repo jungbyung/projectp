@@ -1,0 +1,39 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "Monster.h"
+#include "MonsterDragon.generated.h"
+
+/**
+ * 
+ */
+UCLASS()
+class PROJECTP_API AMonsterDragon : public AMonster
+{
+	GENERATED_BODY()
+
+public:
+	AMonsterDragon();
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason);
+
+public:
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+	virtual void OnConstruction(const FTransform& Transform);
+
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+public:
+	virtual void NormalAttack();
+	virtual void NormalStunAttack();
+	virtual void NormalStaggerAttack();
+	virtual void Attack();
+	virtual void Ranged();
+	virtual void Fire();
+	virtual void Breath();
+};

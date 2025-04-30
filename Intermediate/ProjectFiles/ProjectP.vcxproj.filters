@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ProjectP.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectP.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProjectPEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\dt_itemdata.csv" />
+    <None Include="..\..\dt_monsteranim.csv" />
+    <None Include="..\..\dt_playeranim.csv" />
+    <None Include="..\..\dt_playerskilldata.csv" />
+    <None Include="..\..\dt_playerstate.csv" />
+    <None Include="..\..\dt_potionData.csv" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ProjectP">
+      <UniqueIdentifier>{DC1EE7BC-CBDC-3D0D-87FD-4B1C87D8F535}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\DefaultGameCommon.cpp">
+      <Filter>Source\ProjectP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\DefaultGameCommon.h">
+      <Filter>Source\ProjectP</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ProjectP\ProjectP.Build.cs">
+      <Filter>Source\ProjectP</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProjectP\ProjectP.cpp">
+      <Filter>Source\ProjectP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\ProjectP.h">
+      <Filter>Source\ProjectP</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Common">
+      <UniqueIdentifier>{0DDB880A-F017-3948-AA4A-CDC97AE4E1B2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Common\CharacterInterface.cpp">
+      <Filter>Source\ProjectP\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Common\CharacterInterface.h">
+      <Filter>Source\ProjectP\Common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Common\FootIKComponent.cpp">
+      <Filter>Source\ProjectP\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Common\FootIKComponent.h">
+      <Filter>Source\ProjectP\Common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Common\NormalDamageType.cpp">
+      <Filter>Source\ProjectP\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Common\NormalDamageType.h">
+      <Filter>Source\ProjectP\Common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Common\NormalStunDamageType.cpp">
+      <Filter>Source\ProjectP\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Common\NormalStunDamageType.h">
+      <Filter>Source\ProjectP\Common</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Decal">
+      <UniqueIdentifier>{86913E9D-7292-302D-9514-2C21A541BB8A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Decal\Decal.cpp">
+      <Filter>Source\ProjectP\Decal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Decal\Decal.h">
+      <Filter>Source\ProjectP\Decal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Decal\DecalRotation.cpp">
+      <Filter>Source\ProjectP\Decal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Decal\DecalRotation.h">
+      <Filter>Source\ProjectP\Decal</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\GameMode">
+      <UniqueIdentifier>{BAFF83C0-650B-3BCA-92EF-328D4F79914F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\GameMode\DefaultGameMode.cpp">
+      <Filter>Source\ProjectP\GameMode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\GameMode\DefaultGameMode.h">
+      <Filter>Source\ProjectP\GameMode</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\GameMode\DefaultGameState.cpp">
+      <Filter>Source\ProjectP\GameMode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\GameMode\DefaultGameState.h">
+      <Filter>Source\ProjectP\GameMode</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\GameMode\LobbyGameMode.cpp">
+      <Filter>Source\ProjectP\GameMode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\GameMode\LobbyGameMode.h">
+      <Filter>Source\ProjectP\GameMode</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Item">
+      <UniqueIdentifier>{068E0D1F-4087-34E5-880A-9DB9D87AAF24}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Item\InventoryItem.cpp">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Item\InventoryItem.h">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Item\ItemBase.cpp">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Item\ItemBase.h">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Item\ItemBox.cpp">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Item\ItemBox.h">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Item\ItemInfo.cpp">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Item\ItemInfo.h">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Item\ItemManager.cpp">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Item\ItemManager.h">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Item\PotionItem.cpp">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Item\PotionItem.h">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Item\WeaponItem.cpp">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Item\WeaponItem.h">
+      <Filter>Source\ProjectP\Item</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Monster">
+      <UniqueIdentifier>{F580C82D-94C7-3ADC-A3FC-BA7CC00BB3A8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\Monster.cpp">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\Monster.h">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\MonsterDragon.cpp">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\MonsterDragon.h">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\MonsterG2.cpp">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\MonsterG2.h">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\MonsterGrux.cpp">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\MonsterGrux.h">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\MonsterMovementComponent.cpp">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\MonsterMovementComponent.h">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\MonsterMutant.cpp">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\MonsterMutant.h">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\MonsterSevarog.cpp">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\MonsterSevarog.h">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\MonsterSpawner.cpp">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\MonsterSpawner.h">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\MonsterStateComponent.cpp">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\MonsterStateComponent.h">
+      <Filter>Source\ProjectP\Monster</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Monster\AI">
+      <UniqueIdentifier>{24847AE4-E9D8-3AFC-B78D-9D2F6E970C81}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\AI\BTTask_Attack.cpp">
+      <Filter>Source\ProjectP\Monster\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\AI\BTTask_Attack.h">
+      <Filter>Source\ProjectP\Monster\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\AI\BTTask_LookAround.cpp">
+      <Filter>Source\ProjectP\Monster\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\AI\BTTask_LookAround.h">
+      <Filter>Source\ProjectP\Monster\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\AI\BTTask_MoveToPatrol.cpp">
+      <Filter>Source\ProjectP\Monster\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\AI\BTTask_MoveToPatrol.h">
+      <Filter>Source\ProjectP\Monster\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\AI\BTTask_MoveToTarget.cpp">
+      <Filter>Source\ProjectP\Monster\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\AI\BTTask_MoveToTarget.h">
+      <Filter>Source\ProjectP\Monster\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\AI\EpicMonsterAIController.cpp">
+      <Filter>Source\ProjectP\Monster\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\AI\EpicMonsterAIController.h">
+      <Filter>Source\ProjectP\Monster\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\AI\MonsterAIController.cpp">
+      <Filter>Source\ProjectP\Monster\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\AI\MonsterAIController.h">
+      <Filter>Source\ProjectP\Monster\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Monster\Animation">
+      <UniqueIdentifier>{C2192358-B46F-3298-8C3B-DDB477C133FA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\Animation\MonsterAnimInstance.cpp">
+      <Filter>Source\ProjectP\Monster\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\Animation\MonsterAnimInstance.h">
+      <Filter>Source\ProjectP\Monster\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Monster\Projectile">
+      <UniqueIdentifier>{1B8C1838-9EFC-3B3F-A4A3-B05B6BFFB612}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\Projectile\MonsterProjectile.cpp">
+      <Filter>Source\ProjectP\Monster\Projectile</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\Projectile\MonsterProjectile.h">
+      <Filter>Source\ProjectP\Monster\Projectile</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\Projectile\SlowMonsterProjectile.cpp">
+      <Filter>Source\ProjectP\Monster\Projectile</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\Projectile\SlowMonsterProjectile.h">
+      <Filter>Source\ProjectP\Monster\Projectile</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Monster\Skill">
+      <UniqueIdentifier>{47975256-567A-3FD9-8B25-FA0C3F7EDC5F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Monster\Skill\RangedSkill.cpp">
+      <Filter>Source\ProjectP\Monster\Skill</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Monster\Skill\RangedSkill.h">
+      <Filter>Source\ProjectP\Monster\Skill</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Player">
+      <UniqueIdentifier>{C06A4B2E-255E-382D-B89C-9050367333DE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Player\DefaultPlayerController.cpp">
+      <Filter>Source\ProjectP\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\DefaultPlayerController.h">
+      <Filter>Source\ProjectP\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Player\DefaultPlayerState.cpp">
+      <Filter>Source\ProjectP\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\DefaultPlayerState.h">
+      <Filter>Source\ProjectP\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Player\PlayerCharacter.cpp">
+      <Filter>Source\ProjectP\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\PlayerCharacter.h">
+      <Filter>Source\ProjectP\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Player\ShinobiCharacter.cpp">
+      <Filter>Source\ProjectP\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\ShinobiCharacter.h">
+      <Filter>Source\ProjectP\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Player\Animation">
+      <UniqueIdentifier>{3F27B056-399B-341A-87B6-239C429ED69A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Animation\PlayerAnimInstance.cpp">
+      <Filter>Source\ProjectP\Player\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Animation\PlayerAnimInstance.h">
+      <Filter>Source\ProjectP\Player\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Player\Equipment">
+      <UniqueIdentifier>{FBDC9C53-7BF3-366B-A532-000FE9023497}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Equipment\EquipmentItem.cpp">
+      <Filter>Source\ProjectP\Player\Equipment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Equipment\EquipmentItem.h">
+      <Filter>Source\ProjectP\Player\Equipment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Equipment\WeaponComponent.cpp">
+      <Filter>Source\ProjectP\Player\Equipment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Equipment\WeaponComponent.h">
+      <Filter>Source\ProjectP\Player\Equipment</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Player\Input">
+      <UniqueIdentifier>{16F5262E-B6E7-317A-AC6E-B09B585AA9A8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Input\InputData.cpp">
+      <Filter>Source\ProjectP\Player\Input</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Input\InputData.h">
+      <Filter>Source\ProjectP\Player\Input</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Player\Inventory">
+      <UniqueIdentifier>{A8390EE4-492A-30E7-AED3-B825B5F52C36}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Inventory\InventoryComponent.cpp">
+      <Filter>Source\ProjectP\Player\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Inventory\InventoryComponent.h">
+      <Filter>Source\ProjectP\Player\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Inventory\InventoryInterface.cpp">
+      <Filter>Source\ProjectP\Player\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Inventory\InventoryInterface.h">
+      <Filter>Source\ProjectP\Player\Inventory</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Player\Lobby">
+      <UniqueIdentifier>{D5589DEC-B01E-33A4-8733-FCEBF2C2F14F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Lobby\LobbyPlayerController.cpp">
+      <Filter>Source\ProjectP\Player\Lobby</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Lobby\LobbyPlayerController.h">
+      <Filter>Source\ProjectP\Player\Lobby</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Player\Skill">
+      <UniqueIdentifier>{3A29FDA1-17A5-3661-BF1C-3509D06EBCB4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Skill\ActiveSkill.cpp">
+      <Filter>Source\ProjectP\Player\Skill</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Skill\ActiveSkill.h">
+      <Filter>Source\ProjectP\Player\Skill</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Skill\PassiveSkill.cpp">
+      <Filter>Source\ProjectP\Player\Skill</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Skill\PassiveSkill.h">
+      <Filter>Source\ProjectP\Player\Skill</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Skill\SkillBase.cpp">
+      <Filter>Source\ProjectP\Player\Skill</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Skill\SkillBase.h">
+      <Filter>Source\ProjectP\Player\Skill</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Skill\SkillInterface.cpp">
+      <Filter>Source\ProjectP\Player\Skill</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Skill\SkillInterface.h">
+      <Filter>Source\ProjectP\Player\Skill</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\Player\Skill\Shinobi">
+      <UniqueIdentifier>{B9796165-EE8E-3FA6-83BF-227896941910}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Skill\Shinobi\CutWildly.cpp">
+      <Filter>Source\ProjectP\Player\Skill\Shinobi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Skill\Shinobi\CutWildly.h">
+      <Filter>Source\ProjectP\Player\Skill\Shinobi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Skill\Shinobi\DanceWildly.cpp">
+      <Filter>Source\ProjectP\Player\Skill\Shinobi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Skill\Shinobi\DanceWildly.h">
+      <Filter>Source\ProjectP\Player\Skill\Shinobi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\Player\Skill\Shinobi\RisingSlash.cpp">
+      <Filter>Source\ProjectP\Player\Skill\Shinobi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\Player\Skill\Shinobi\RisingSlash.h">
+      <Filter>Source\ProjectP\Player\Skill\Shinobi</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\UI">
+      <UniqueIdentifier>{8AF77A1E-6544-3AB1-9A0A-8316A9A3C252}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\UI\BaseUserWidget.cpp">
+      <Filter>Source\ProjectP\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\BaseUserWidget.h">
+      <Filter>Source\ProjectP\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\DefaultUICommon.cpp">
+      <Filter>Source\ProjectP\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\DefaultUICommon.h">
+      <Filter>Source\ProjectP\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\UIManager.cpp">
+      <Filter>Source\ProjectP\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\UIManager.h">
+      <Filter>Source\ProjectP\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\UI\Lobby">
+      <UniqueIdentifier>{9EBE6C6C-F010-3B32-BC67-20BA6D9595EC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Lobby\LobbyWidget.cpp">
+      <Filter>Source\ProjectP\UI\Lobby</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Lobby\LobbyWidget.h">
+      <Filter>Source\ProjectP\UI\Lobby</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\UI\Main">
+      <UniqueIdentifier>{0A459A78-6988-3A43-8818-7CBF5D130A9A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\BuffSlot.cpp">
+      <Filter>Source\ProjectP\UI\Main</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\BuffSlot.h">
+      <Filter>Source\ProjectP\UI\Main</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\BuffWidget.cpp">
+      <Filter>Source\ProjectP\UI\Main</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\BuffWidget.h">
+      <Filter>Source\ProjectP\UI\Main</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\ItemDragDropSlot.cpp">
+      <Filter>Source\ProjectP\UI\Main</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\ItemDragDropSlot.h">
+      <Filter>Source\ProjectP\UI\Main</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\MainWidget.cpp">
+      <Filter>Source\ProjectP\UI\Main</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\MainWidget.h">
+      <Filter>Source\ProjectP\UI\Main</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectP\UI\Main\HUD">
+      <UniqueIdentifier>{66665526-BFCE-37D5-B5D4-8EC404EFD03C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\HUD\HeadWidget.cpp">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\HUD\HeadWidget.h">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\HUD\HUDMonsterWidget.cpp">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\HUD\HUDMonsterWidget.h">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\HUD\HUDPlayerWidget.cpp">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\HUD\HUDPlayerWidget.h">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\HUD\InventorySlot.cpp">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\HUD\InventorySlot.h">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\HUD\InventoryWidget.cpp">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\HUD\InventoryWidget.h">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\HUD\ItemInfoWidget.cpp">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\HUD\ItemInfoWidget.h">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\HUD\ItemSlotWidget.cpp">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\HUD\ItemSlotWidget.h">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\HUD\PlayerAttributeWidget.cpp">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\HUD\PlayerAttributeWidget.h">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\HUD\PlayerSkillWidget.cpp">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\HUD\PlayerSkillWidget.h">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\HUD\QuickItemSlot.cpp">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\HUD\QuickItemSlot.h">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectP\UI\Main\HUD\SkillSlot.cpp">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectP\UI\Main\HUD\SkillSlot.h">
+      <Filter>Source\ProjectP\UI\Main\HUD</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
